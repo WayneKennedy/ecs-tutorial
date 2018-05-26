@@ -2,9 +2,9 @@
 
 public struct PlayerInput : IComponentData
 {
-    public float horizontal;
-    public float vertical;
+    public float Horizontal;
+    public float Vertical;
 }
 
-public struct Block : IComponentData {}
-public struct Fly : IComponentData {}
+public struct Block : IComponentData { }
+public struct Fly : IComponentData { }
